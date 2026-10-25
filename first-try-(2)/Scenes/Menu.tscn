@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://chad5njoa2xoo"]
+
+[ext_resource type="Script" uid="uid://c6tcgkqkpk5hh" path="res://Scritps/Menu.gd" id="1_3kf3n"]
+
+[node name="Menu" type="Node2D" unique_id=910645820]
+script = ExtResource("1_3kf3n")
+
+[node name="start" type="Button" parent="." unique_id=378910215]
+offset_left = 507.0
+offset_top = 129.0
+offset_right = 664.0
+offset_bottom = 179.0
+text = "Start"
+
+[node name="settings" type="Button" parent="." unique_id=1108497811]
+offset_left = 29.0
+offset_top = 18.0
+offset_right = 186.0
+offset_bottom = 68.0
+
+[node name="qiut" type="Button" parent="." unique_id=227737624]
+offset_left = 31.0
+offset_top = 83.0
+offset_right = 188.0
+offset_bottom = 133.0
+
+[connection signal="pressed" from="start" to="." method="_on_start_pressed"]

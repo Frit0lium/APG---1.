@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://dhtfr222ey6y1"]
+
+[ext_resource type="Script" uid="uid://cce4jxi7uki5n" path="res://Scritps/levelypick.gd" id="1_ko67m"]
+
+[node name="Levely" type="Node2D" unique_id=1669033540]
+script = ExtResource("1_ko67m")
+
+[node name="L1" type="Button" parent="." unique_id=277295553]
+offset_left = 66.0
+offset_top = 64.0
+offset_right = 204.0
+offset_bottom = 106.0
+text = "Level 1."
+
+[connection signal="pressed" from="L1" to="." method="_on_l_1_pressed"]
